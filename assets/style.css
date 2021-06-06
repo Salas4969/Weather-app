@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(yellow,red);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+#button-addon2{
+    margin: none;
+}
+
+button{
+    margin: 2px;
+}
+#weatherContainer{
+    border: black solid 1px;
+}
+ul{
+    list-style: none;
+}
+#ButtonStorage{
+    display: flex;
+    flex-direction: row;
+}
+
+#fiveDForecast{
+display: flex;
+flex-direction: row;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color:red;
+}
+.purple{
+    background-color:purple;
+}
